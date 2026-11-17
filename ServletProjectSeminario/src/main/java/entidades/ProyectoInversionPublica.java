@@ -1,0 +1,80 @@
+package entidades;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class ProyectoInversionPublica {
+
+    private Long id;
+    private String nombreProyecto;
+    private String descripcionTecnica;
+    private LocalDate fechaInicio;
+    private LocalDate fechaCulminacion;
+    private String asesorTecnico;
+    private BigDecimal presupuestoAsignado;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNombreProyecto() {
+        return nombreProyecto;
+    }
+
+    
+    public void setNombreProyecto(String nombreProyecto) {
+        this.nombreProyecto = nombreProyecto;
+    }
+
+    
+    
+    public String getDescripcionTecnica() {
+        return descripcionTecnica;
+    }
+
+    
+    
+    public void setDescripcionTecnica(String descripcionTecnica) {
+        this.descripcionTecnica = descripcionTecnica;
+    }
+
+    public LocalDate getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public void setFechaInicio(LocalDate fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+
+    
+    
+    public LocalDate getFechaCulminacion() {
+        return fechaCulminacion;
+    }
+
+    public void setFechaCulminacion(LocalDate fechaCulminacion) {
+        this.fechaCulminacion = fechaCulminacion;
+    }
+
+    public String getAsesorTecnico() {
+        return asesorTecnico;
+    }
+
+    
+    
+    public void setAsesorTecnico(String asesorTecnico) {
+        this.asesorTecnico = asesorTecnico;
+    }
+
+    public BigDecimal getPresupuestoAsignado() {
+        return presupuestoAsignado;
+    }
+
+    public void setPresupuestoAsignado(BigDecimal presupuestoAsignado) {
+        this.presupuestoAsignado = presupuestoAsignado;
+    }
+}
